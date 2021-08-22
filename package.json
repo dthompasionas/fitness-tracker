@@ -1,0 +1,24 @@
+{
+  "scripts": {
+    "start": "node server.js"
+  },
+  "name": "fitness-tracker",
+  "description": "an app to track your workouts",
+  "version": "1.0.0",
+  "main": "server.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dthompasionas/fitness-tracker.git"
+  },
+  "author": "Damian",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dthompasionas/fitness-tracker/issues"
+  },
+  "homepage": "https://github.com/dthompasionas/fitness-tracker#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^5.13.7",
+    "morgan": "^1.10.0"
+  }
+}
