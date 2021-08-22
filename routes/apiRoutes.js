@@ -41,6 +41,7 @@ module.exports = function (app) {
       .catch((err) => {
         res.json(err);
       });
+      
 
     function updateWorkout(exercises) {
       db.Workout.findByIdAndUpdate(

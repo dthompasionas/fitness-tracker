@@ -43,6 +43,7 @@ function formatDate(date) {
 
 function renderWorkoutSummary(summary) {
   const container = document.querySelector(".workout-stats");
+  
 
   const workoutKeyMap = {
     date: "Date",

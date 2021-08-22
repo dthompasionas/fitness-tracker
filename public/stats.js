@@ -195,6 +195,7 @@ function duration(data) {
   return durations;
 }
 
+
 function calculateTotalWeight(data) {
   let total = [];
 
