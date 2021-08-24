@@ -13,7 +13,7 @@ app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 app.use(express.static("public"));
 
-mongodb+srv://dthompasionas:Novacane1!>@cluster0.znx3p.mongodb.net/myFirstDatabase?retryWrites=true&w=majority
+
 
 mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost/workout", {
   useNewUrlParser: true,
