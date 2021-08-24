@@ -29,7 +29,7 @@ function generatePalette() {
   ];
 
   return arr;
-}
+};
 function populateChart(data) {
   let durations = duration(data);
   let pounds = calculateTotalWeight(data);
@@ -181,7 +181,7 @@ function populateChart(data) {
       },
     },
   });
-}
+};
 
 function duration(data) {
   let durations = [];
@@ -193,8 +193,7 @@ function duration(data) {
   });
 
   return durations;
-}
-
+};
 
 function calculateTotalWeight(data) {
   let total = [];
@@ -206,7 +205,7 @@ function calculateTotalWeight(data) {
   });
 
   return total;
-}
+};
 
 function workoutNames(data) {
   let workouts = [];
@@ -218,4 +217,4 @@ function workoutNames(data) {
   });
 
   return workouts;
-}
+};
